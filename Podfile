@@ -7,6 +7,11 @@ target 'ZZAccountBook' do
 
   # Pods for ZZAccountBook
 
+  pod 'AFNetworking', '~> 4.0'
+  pod 'Masonry'
+#  pod "RTRootNavigationController"
+#  pod 'GKNavigationController'
+  pod 'MBProgressHUD'
   target 'ZZAccountBookTests' do
     inherit! :search_paths
     # Pods for testing

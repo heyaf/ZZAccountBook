@@ -224,6 +224,7 @@
 				046DABC12879B52F003A320F /* Sources */,
 				046DABC22879B52F003A320F /* Frameworks */,
 				046DABC32879B52F003A320F /* Resources */,
+				91F5722AF4E4C85F84DF82C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +262,7 @@
 				046DABE62879B536003A320F /* Sources */,
 				046DABE72879B536003A320F /* Frameworks */,
 				046DABE82879B536003A320F /* Resources */,
+				8F343136BCAA64BA263BC51D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -384,6 +386,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F343136BCAA64BA263BC51D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZAccountBook-ZZAccountBookUITests/Pods-ZZAccountBook-ZZAccountBookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZAccountBook-ZZAccountBookUITests/Pods-ZZAccountBook-ZZAccountBookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZAccountBook-ZZAccountBookUITests/Pods-ZZAccountBook-ZZAccountBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F5722AF4E4C85F84DF82C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZAccountBook/Pods-ZZAccountBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZZAccountBook/Pods-ZZAccountBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZAccountBook/Pods-ZZAccountBook-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D0882112D778D8698CF3F49F /* [CP] Check Pods Manifest.lock */ = {
